@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    body{
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.6;
+        color: rgb(203, 228, 251);
+        background-image: url(/images/headerimage5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background: linear-gradient(to bottom right, rgb(218, 218, 218), rgb(72, 72, 72)); */
+    }
+
+        .websitename{
+            text-align: center;
+            padding: 5px;
+            font-size: 150px;
+            font-family: "Imperial Script", sans-serif;
+            font-weight: 500;
+        }
+
+        .navBar ul{
+            list-style-type: none;
+            background-color: rgb(29,29,29);
+            border: none;
+            border-top: 2px solid rgb(203, 228, 251);
+            border-bottom: 2px solid rgb(203, 228, 251);
+            padding: 10px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        .navBar a{
+            display: block;
+            text-decoration: none;
+            color: rgb(203, 228, 251);
+            padding: 5px 30px;
+            text-align: center;
+        }
+        
+        .navBar li{
+            float: right;
+        }
+        
+        .socialIcons{
+            text-align: right;
+
+        }
+
+        .navBar a:hover{
+            color:rgb(100, 157, 161);
+            background-color: rgba(10,10,10);
+            
+        }
+
+        .logo{
+            padding: 5px 25px;
+        }
+    
+    /*.boxForTabs{
+        position: relative;
+        width: 800px;
+        height: 150px;
+        padding: 30px;
+        background-color: rgb(22,22,22);
+        border: none;
+        border-top: 2px solid rgb(203, 228, 251);
+        border-bottom: 2px solid rgb(203, 228, 251);
+        margin: auto;
+    }
+
+
+    a.homeTab{
+        position: absolute;
+        text-decoration: none;
+        color: rgb(203, 228, 251);
+        text-align: center;
+        background-color: rgba(22,22,22);
+        border: none;
+        border-top: 1px solid rgb(203, 228, 251);
+        border-bottom: 1px solid rgb(203, 228, 251);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px;
+        margin: auto;
+    }
+
+    a.contactTab{
+        position: absolute;
+        text-decoration: none;
+        color: rgb(203, 228, 251);
+        text-align: center;
+        background-color: rgba(22,22,22);
+        border: none;
+        border-top: 1px solid rgb(203, 228, 251);
+        border-bottom: 1px solid rgb(203, 228, 251);
+        padding: 20px;
+        margin: auto;
+    }
+
+    a.aboutTab{
+        position: absolute;
+        text-decoration: none;
+        color: rgb(203, 228, 251);
+        text-align: center;
+        background-color: rgba(22,22,22);
+        border: none;
+        border-top: 1px solid rgb(203, 228, 251);
+        border-bottom: 1px solid rgb(203, 228, 251);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 20px;
+        margin: auto;
+    } 
+
+
+
+
+    /*.NavTabs{
+
+        text-decoration: none;
+        color: rgb(203, 228, 251);
+        text-align: center;
+        background-color: rgba(0,0,0,.5);
+        border: none;
+        border-top: 1px solid rgb(203, 228, 251);
+        border-bottom: 1px solid rgb(203, 228, 251);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 30px auto;    
+    }*/
+        /*.HomeTab{
+            text-decoration: none;
+            color: rgb(203, 228, 251);
+            text-align: center;
+            background-color: rgba(0,0,0,.5);
+            border: none;
+            border-top: 1px solid rgb(203, 228, 251);
+            border-bottom: 1px solid rgb(203, 228, 251);
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 20px;
+            max-width: 200px;
+            margin: 30px auto;  
+        }
+        .ContactTab{
+            text-decoration: none;
+            color: rgb(203, 228, 251);
+            text-align: center;
+            background-color: rgba(0,0,0,.5);
+            border: none;
+            border-top: 1px solid rgb(203, 228, 251);
+            border-bottom: 1px solid rgb(203, 228, 251);
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 20px;
+            max-width: 200px;
+            margin: 30px auto;  
+        }
+
+
+        .AboutTab{
+            text-decoration: none;
+            color: rgb(203, 228, 251);
+            text-align: center;
+            background-color: rgba(0,0,0,.5);
+            border: none;
+            border-top: 1px solid rgb(203, 228, 251);
+            border-bottom: 1px solid rgb(203, 228, 251);
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 20px;
+            max-width: 200px;
+            margin: 30px auto;  
+        }*/
+
+
+        #section1{
+            padding: 30px 40px;
+        }
+
+        #section2{
+            padding: 30px 40px;
+        }
+
+        #section3{
+            padding: 30px 40px;
+        }
+
+        .section4{
+            padding: 30px 40px;
+        }
