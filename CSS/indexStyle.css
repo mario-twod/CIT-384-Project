@@ -13,185 +13,72 @@
         background-position: center;
         /* background: linear-gradient(to bottom right, rgb(218, 218, 218), rgb(72, 72, 72)); */
     }
+  
+    .websitename{
+        text-align: right;
+        padding: 5px 50px;
+        font-size: 150px;
+        font-family: "Imperial Script", sans-serif;
+        font-weight: 500;
+    }
+    
+    .logo{
+        padding: 0px 25px;
+    }
 
-        .websitename{
-            text-align: center;
-            padding: 5px;
-            font-size: 150px;
-            font-family: "Imperial Script", sans-serif;
-            font-weight: 500;
-        }
+    .socialIcons{
+        text-align: right;
+    }
 
-        .navBar ul{
-            list-style-type: none;
-            background-color: rgb(29,29,29);
+    
+        .navBarContainer{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            gap: 20px;
+            background-color: rgba(100, 157, 161,.25);
             border: none;
             border-top: 2px solid rgb(203, 228, 251);
             border-bottom: 2px solid rgb(203, 228, 251);
-            padding: 10px;
-            margin: 0px;
-            overflow: hidden;
+            flex:1;
         }
 
-        .navBar a{
-            display: block;
+        .navBarContainer ul{
+                width: 500px; 
+                height: 60px; 
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                list-style-type: none;
+                background-color: rgb(29,29,29);
+                border-radius: 15px;
+                box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, .75);
+        }    
+
+        .navBarContainer a{
             text-decoration: none;
             color: rgb(203, 228, 251);
-            padding: 5px 30px;
+            padding: 6px 30px;
             text-align: center;
+            border-radius: 10px;
         }
         
-        .navBar li{
-            float: right;
-        }
-        
-        .socialIcons{
-            text-align: right;
 
-        }
-
-        .navBar a:hover{
+        .navBarContainer a:hover{
             color:rgb(100, 157, 161);
             background-color: rgba(10,10,10);
-            
         }
 
-        .logo{
-            padding: 5px 25px;
-        }
-    
-    /*.boxForTabs{
-        position: relative;
-        width: 800px;
-        height: 150px;
-        padding: 30px;
-        background-color: rgb(22,22,22);
-        border: none;
-        border-top: 2px solid rgb(203, 228, 251);
-        border-bottom: 2px solid rgb(203, 228, 251);
-        margin: auto;
-    }
-
-
-    a.homeTab{
-        position: absolute;
-        text-decoration: none;
-        color: rgb(203, 228, 251);
-        text-align: center;
-        background-color: rgba(22,22,22);
-        border: none;
-        border-top: 1px solid rgb(203, 228, 251);
-        border-bottom: 1px solid rgb(203, 228, 251);
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding: 20px;
-        margin: auto;
-    }
-
-    a.contactTab{
-        position: absolute;
-        text-decoration: none;
-        color: rgb(203, 228, 251);
-        text-align: center;
-        background-color: rgba(22,22,22);
-        border: none;
-        border-top: 1px solid rgb(203, 228, 251);
-        border-bottom: 1px solid rgb(203, 228, 251);
-        padding: 20px;
-        margin: auto;
-    }
-
-    a.aboutTab{
-        position: absolute;
-        text-decoration: none;
-        color: rgb(203, 228, 251);
-        text-align: center;
-        background-color: rgba(22,22,22);
-        border: none;
-        border-top: 1px solid rgb(203, 228, 251);
-        border-bottom: 1px solid rgb(203, 228, 251);
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        padding: 20px;
-        margin: auto;
-    } 
-
-
-
-
-    /*.NavTabs{
-
-        text-decoration: none;
-        color: rgb(203, 228, 251);
-        text-align: center;
-        background-color: rgba(0,0,0,.5);
-        border: none;
-        border-top: 1px solid rgb(203, 228, 251);
-        border-bottom: 1px solid rgb(203, 228, 251);
-        border-top-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding: 20px;
-        max-width: 1000px;
-        margin: 30px auto;    
-    }*/
-        /*.HomeTab{
-            text-decoration: none;
-            color: rgb(203, 228, 251);
-            text-align: center;
-            background-color: rgba(0,0,0,.5);
-            border: none;
-            border-top: 1px solid rgb(203, 228, 251);
-            border-bottom: 1px solid rgb(203, 228, 251);
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            padding: 20px;
-            max-width: 200px;
-            margin: 30px auto;  
-        }
-        .ContactTab{
-            text-decoration: none;
-            color: rgb(203, 228, 251);
-            text-align: center;
-            background-color: rgba(0,0,0,.5);
-            border: none;
-            border-top: 1px solid rgb(203, 228, 251);
-            border-bottom: 1px solid rgb(203, 228, 251);
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            padding: 20px;
-            max-width: 200px;
-            margin: 30px auto;  
-        }
-
-
-        .AboutTab{
-            text-decoration: none;
-            color: rgb(203, 228, 251);
-            text-align: center;
-            background-color: rgba(0,0,0,.5);
-            border: none;
-            border-top: 1px solid rgb(203, 228, 251);
-            border-bottom: 1px solid rgb(203, 228, 251);
-            border-top-left-radius: 10px;
-            border-bottom-right-radius: 10px;
-            padding: 20px;
-            max-width: 200px;
-            margin: 30px auto;  
-        }*/
-
-
-        #section1{
-            padding: 30px 40px;
-        }
-
-        #section2{
-            padding: 30px 40px;
-        }
-
-        #section3{
-            padding: 30px 40px;
-        }
-
-        .section4{
-            padding: 30px 40px;
-        }
+ 
+            .main{
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: space-evenly;
+                margin: 50px;
+                padding: 20px;
+                flex: 1;
+            }
