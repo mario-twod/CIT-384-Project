@@ -1,68 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="icon" href= "images/favicon.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="Explore the portfolio of Mario Aguilar, a current senior at Cal State Northridge studying Information Technology 
+    Passionate about computers, technology, and IT solutions."
+    />
+    <meta name="keywords" content="Mario, Aguilar, Portfolio" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href= "images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/aboutMeStyle.css">
+    <title>About Me</title>
 </head>
 
 <body>
-    <header class="main-header" id="main-header">
-        <div class="socialIcons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
-
-        <div class="logo">
-            <img src="./images/Portofolio Logo.jpg" 
-            alt="logo"
-            width="125"
-            height="125"
-            title="Mario Aguilar"
-            usemap>
-            <map name="logomap">
-                <area 
-                shape="rect" 
-                coords="0,0,125,125" 
-                href="index.html" 
-                alt="logo">
-            </map>    
-        </div>
-
-        <h1 class="websitename">Mario Aguilar</h1>
-    </header>
-
-        <nav class= "navBarContainer">
-            <div class="tabs">
-                <ul>
-                    <li><a href="index.html" title="Go to Home" class="homeTab">Home</a></li> 
-                    <li><a href="contact.html" title="Different Contact Methods" class="contactTab">Contact</a></li>
-                    <li><a href="aboutme.html" title="About Mario Aguilar" class="aboutTab">About</a></li>    
-                </ul>   
+        <!--Header-->
+        <div class = "main-header">
+            <div class="socialIcons">
+                <a href="https://github.com/mario-twod/CIT-384-Project.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:mario.aguilar.270@my.csun.edu"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/mario-aguilar-712a5a294" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-        </nav>   
+
+            <div class = "logo">
+                <img src="./images/Portofolio Logo.jpg" 
+                alt="logo"
+                width="125"
+                height="125"
+                title="Mario Aguilar"
+                usemap="#logomap">
+                <map name="logomap">
+                    <area shape="rect" coords="0,0,125,125" href="index.html" alt="logo">
+                </map>
+            </div>
+            
+        </div>
 
 
+
+
+        
+    </header>
+    
+    <!-- Navigation Bar -->
+    <nav class="navBarContainer">
+
+        <ul>
+            <li id="homeBtn"><a href="index.html" title="Go to Home">Home</a></li>
+            <li id="contactBtn"><a href="contact.html" title="Different Contact Methods">Contact</a></li>
+            <li id="aboutmeBtn"><a href="aboutme.html" title="About Mario Aguilar">About</a></li>
+        </ul>
+    </nav>
+    
+
+    
+    <div class="MainHeader">
+
+        <p class = "FirstSentence">Want to learn a little<br> more <b>about me?</br></p>
+
+    </div> 
+        
+        
         <main>
-            <section class="section1">
+
+
+            <section class = "Espresso" id = "Espresso">
+                <h2>Espresso</h2>
+                <figure>
+                    <img src="./images/Coffee.jpg" alt="Cofee">
+                    <figcaption>"Iced Caramel Brul&#233;e Eggnog Latte" <i>Starbucks Reserve Roastery</i> in Seattle, WA
+                    </figcaption>
+                </figure>
+                
+                <p>I enjoy making Espresso at home. I receieved
+                    an espresso machine as a birthday gift and since
+                    then I have learned everything there is know about coffee.
+                    Such as how fine to grind your coffee, at what specifc 
+                    temperature the water should be, and the exact amount
+                    of coffee grinds you need. My personal preference for those of 
+                    you that are curious is 22g of coffee grids for a double
+                    shot espresso and the water temperature needs to be at 185&deg;F.</p>
             </section>
-            <iframe
-                width="500"
-                height="300" 
-                src="./files/Mario-Aguilar-Resume-.pdf" 
-                frameborder="0">
-            </iframe>
+
+            <section class = "VideoGames" id = "VideoGames">
+                <h2>Video Games</h2>
+                <figure>
+                    <img src="./images/ow.jpeg" alt="Overwatch 2">
+                    <figcaption>Overwatch 2 <i>Blizzard Entertainment</i>&copy;</figcaption>
+                </figure>
+                <p>I often play video games such as Overwatch 2, Call of Duty,
+                    and sometimes Cyberpunk 2077. A new game that was just released 
+                    that I am currently enjoying playing is Marvel Rivals. It's a
+                    fast paces third person shooter which are the games I typically 
+                    enjoy.
+                </p>
+            </section>
+
+            <section class = "Youtube" id = "Youtube">
+                <h2>Youtube</h2>
+                <figure>
+                    <img src="./images/youtube.png" alt="youtube">
+                    <figure>As you can see here my algorithm consists of video games, electric car news, and how to DIY a surround sound system</figure>
+                </figure>
+                <p>Watching Youtube Videos about New Topics. I have
+                    learned so many great things on Youtube such as how to code in HTML, how to change an electrical wall socket, and how to build my own PC.</p>
+            </section>
+
+            <section class = "Keyboards" id = "Keyboards">
+                <h2>Keyboards</h2>
+                <figure>
+                    <img src="./images/switchLube.jpeg" alt="LubingSwitch">
+                    <figure>Lubing the inside housing of a switch</figure>
+                </figure>
+                <p>Ever since I built my first custom keyboard it has
+                    become a big hobby of mine. It is so peaceful taking
+                    apart all the key switches and lubing the springs and housing of the switches. When you're all done you get a 
+                    satisfying sounding keyboard to enjoy.</p>
+            </section>
+
+            <section class = "Travelling" id = "Travelling">
+                <h2>Travelling</h2>
+                <figure>
+                    <img src="./images/Seattle.jpg" alt="PublicMarket">
+                    <figure>Pike Market in Seattle, WA </figure>
+                </figure>
+                <figure>
+                    <img src="./images/FIrstFlight.jpg" alt="FIrstFlight">
+                    <figure>First Ever Flight</figure>
+                </figure>
+                <figure>
+                    <img src="./images/Montreal.jpg" alt="Montreal">
+                    <figure>Downtown Montreal in Montreal, Qu&#233;bec, CA </figure>
+                </figure>
+                <figure>
+                    <img src="./images/Vancouver.jpg" alt="Vancouver">
+                    <figure>Downtown Vancouver in Vancouver, BC, CA</figure>
+                </figure>
+                <figure>
+                    <img src="./images/Toronto.jpg" alt="Toronto">
+                    <figure>View of CN Tower in Toronto, ON, CA</figure>
+                </figure>
+                <p>My first ever plane ride was in 2021 from Los 
+                    Angeles, CA to Las Vegas, NV. Since then I have travelled to; Austin, TX, Denver, CO, Seattle, WA, Toronto, ON, Montreal, QC, Vancouver, BC and many other places.</p>
+            </section>
+
+            <section class = "Websites" id = "Websites">
+                <h2>Web Development</h2>
+                <figure>
+                    <img src="./images/web.png" alt="Web">
+                    <figcaption>Me currently taking a screenshot to implement a picture under Web Development</figcaption>
+                </figure>
+                <p>My newest hobby is now building websites. Ever since I started this project for a class, I enjoyed it so much that now I am very interested in perhaps going into the web development field. I plan to build many more websites not only for school projects but also for myself.</p>
+            </section>
 
         </main>
-
+        <script src="./aboutme.js"></script>
 </body>
 </html>

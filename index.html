@@ -17,98 +17,134 @@
         <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/indexStyle.css">
-        <title>Mario Aguilar's Portfolio</title>
+        <title>Mario Aguilar</title>
     </head>
     <body>
         <!--Header-->
         <header class="main-header" id="main-header">
+
             <div class="socialIcons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-twitter"></i>
+                <a href="https://github.com/mario-twod/CIT-384-Project.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:mario.aguilar.270@my.csun.edu"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/mario-aguilar-712a5a294" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
 
-            <div class="logo">
+
+            <div class = "logo">
                 <img src="./images/Portofolio Logo.jpg" 
                 alt="logo"
                 width="125"
                 height="125"
                 title="Mario Aguilar"
-                usemap>
+                usemap="#logomap">
                 <map name="logomap">
-                    <area 
-                    shape="rect" 
-                    coords="0,0,125,125" 
-                    href="index.html" 
-                    alt="logo">
-                </map>    
-            </div>
-
-            <h1 class="websitename">Mario Aguilar</h1>
-        </header>
-
-            <nav class= "navBarContainer">
-                <div class="tabs">
-
-                    <ul>
-                        <li><a href="index.html" title="Go to Home" class="homeTab">Home</a></li>
-                        <li><a href="contact.html" title="Different Contact Methods" class="contactTab">Contact</a></li>
-                        <li><a href="aboutme.html" title="About Mario Aguilar" class="aboutTab">About</a></li>    
-                    </ul>   
-                </div>
-            </nav>  
-                <img src="./images/emptyProfilePic.png" 
-                    alt="image" 
-                    width="350" 
-                    height="400"
-                    title="This is Me"
-                    usemap="#protraitmap" />
-            
-                <map name="protraitmap">
-                    <area shape="rect" coords="0,0,350,400" href="aboutme.html" alt="portrait">
+                    <area shape="rect" coords="0,0,125,125" href="index.html" alt="logo">
                 </map>
+            </div>
             
+            
+        </header>
+        
+        <!-- Navigation Bar -->
+        <nav class="navBarContainer">
+
+            <ul>
+                <li id="homeBtn"><a href="index.html" title="Go to Home">Home</a></li>
+                <li id="contactBtn"><a href="contact.html" title="Different Contact Methods">Contact</a></li>
+                <li id="aboutmeBtn"><a href="aboutme.html" title="About Mario Aguilar">About</a></li>
+            </ul>
+        </nav>
+        
 
         
-        <!--Footer-->
-        <footer class="footers" id="footers">
-            &copy; 2024 Mario Aguilar's Portfolio </footer>
+        <div class="MainHeader">
+            <img src="./images/emptyProfilePic.png" 
+            alt="image" 
+            width="350" 
+            height="400"
+            title="This is Me"
+            usemap="#protraitmap" />
+            
+            <map name="protraitmap">
+                <area shape="rect" coords="0,0,350,400" href="aboutme.html" alt="portrait">
+            </map>
+            <p class = "FirstSentence">Hi, my name is<br><b>Mario!</b></br> <span style = "display: block;" class = "SecondSentence">I'm currently a student at California State University, Northridge studying Computer Information Technology</span></p>
+
+        </div>  
             
             
-            <!--U should only use this with external links-->
-            <h2>External Links (This creates a new tab when click)</h2>
-            <a href="https://google.com" target="_blank">Visit Google</a>
-            
-            <h2>Internal Link (To navigate on same page)</h2>
-            <a href="#services">Go to Services</a>
+        
             
             <main class="main" id="main">
                 <!--Sections-->
                     <!-- You use class for CSS and ID for javascript -->
                     <section class="section1">
                         <div class="card text-center">
-                            <h2 class="text-lg">Section One</h2>
-                            <p>This is the first paragraph in <span>section 1</span></p>
-                            <p>This is the second paragraph in <span>section 1</span></p>
+                            
+                            <h2 class="text-lg">Hobbies</h2>
+                            <p>I have many hobbies. When I find something interesting I tend
+                                to want to learn everything about it. That is how I got into
+                                computers. I have learned a lot about things that everyday people
+                                may not think about such as keyboards.
+                            </p>
+                        <p>Some of my Favorite Hobbies Include:</p>
+
+                        </div>
+                        <div class = "HobbiesListContainer1">
+                            <div class ="EspressoCard">
+                                <a href="aboutme.html#Espresso">Espresso</a>
+                                <img src="./images/espresso_img.jpg" alt="Espresso">
+
+                            </div>
+                            <div class = "VideoCard">
+                                <a href = "aboutme.html#VideoGames">Video Games</a>
+                                <img src="./images/video_img.jpg" alt="Video Games">
+
+                            </div>
+                            <div class = "YoutubeCard">
+                                <a href = "aboutme.html#Youtube">Youtube</a>
+                                <img src="./images/youtube_img.jpg" alt="Youtube">
+
+                            </div>
+                        </div>
+                            <div class = "HobbiesListContainer2">
+                            <div class = "KeyboardsCard">
+                                <a href = "aboutme.html#Keyboards">Custom<br>Keyboards</br></a>
+                                <img src="./images/keyboard_img.jpg" alt="Keyboards">
+
+                            </div>
+                            <div class = "TravelCard">
+                                <a href = "aboutme.html#Travelling">Travel</a>
+                                <img src="./images/travel_img.jpg" alt="Travel">
+
+                            </div>
+                            <div class = "WebsiteCard">
+                                <a href = "aboutme.html#Websites">Web Development</a>
+                                <img src="./images/website_img.jpg" alt="Web Development">
+
+                            </div>
                         </div>
                     </section>
                     
                     <section class="section2">
                         <div class="card text-center">
-                            <h2 class="text-xl">Section Two</h2>
-                            <p>This is the first paragraph in <span>section 2</span></p>
-                            <p>This is the second paragraph in <span>section 2</span></p>
+                            <h2 class="text-xl">Career Goals</h2>
+                            <p>As a senior IT student at Cal State Northridge, I'm hope to pursue a career as a system admin. My current job at Geek Squad has given me hands-on experience of diagnosing computers and also finding a solution to the problem on the spot or asking co-workers if they have a solution. This has boosted my problem-solving and technical skills. I hope I can bring my academic background with this recent hands-on experience to overcome the challenges of managing and maintaining IT systems. My goal is to make sure everything runs like a well-oiled machine in the future.</p>
                         </div>
                     </section>
 
                     <section class="section3">
                         <div class="card text-center">
-                            <h2 class="text-xl">Section Three</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum nihil, cumque distinctio possimus labore odio consectetur nam dolores similique nobis veniam enim. At optio deserunt, exercitationem impedit atque sapiente error placeat! Quasi molestiae voluptas voluptatem, odit reprehenderit deleniti nihil neque hic tenetur quibusdam. Soluta ut vero voluptatum ducimus dolores numquam, facilis quos sunt ea maxime! Voluptatem, nulla. Commodi facilis, omnis expedita vitae odio libero totam quis harum tenetur recusandae facere, animi soluta numquam. Quaerat deleniti porro ducimus numquam ad inventore commodi corporis facilis delectus unde, in facere, voluptates nemo sequi sed molestias. Soluta at accusantium delectus asperiores architecto nesciunt, cupiditate illo eaque aliquid magni quaerat est possimus, explicabo animi culpa reprehenderit! Nemo deleniti minima et assumenda. In unde, natus tenetur dolores odit voluptas doloremque totam nisi perspiciatis optio id itaque consequatur laudantium animi dolore ea voluptate voluptatem architecto, vel reiciendis culpa? Repudiandae quae modi assumenda architecto rerum alias, illum excepturi ab facere temporibus reiciendis, delectus odio sequi repellendus, officia voluptatibus ipsa similique nam unde quibusdam tenetur vel provident veniam quod. Nesciunt nihil consequuntur, quas iusto maxime expedita minus sequi quidem, ullam similique, assumenda velit fugiat ipsum blanditiis vel iste fugit. Magni deleniti maxime cum reprehenderit fugit cumque sed repudiandae ipsa accusamus ipsam ab doloremque, quis quidem iusto velit nam rerum, minus sequi numquam? Quisquam repudiandae ducimus deserunt molestias quos omnis corrupti unde cum aut dolor perspiciatis, ipsum qui. Ea recusandae natus libero distinctio tempora, veniam aspernatur eum repellat saepe eius tempore itaque odio, omnis neque velit repellendus mollitia eaque! Doloribus repellendus harum obcaecati expedita consequuntur voluptatibus autem commodi odit architecto, voluptates blanditiis minus enim. Esse nam numquam incidunt ea eaque illo unde minima pariatur quaerat, odit at non nulla harum nemo reiciendis expedita eligendi dolorem soluta? Rerum at fugiat cum odit placeat consectetur nesciunt magni cupiditate perferendis laboriosam? Cum facere inventore suscipit eos cupiditate, minima harum molestiae eaque repellendus culpa blanditiis quas eum quam sequi voluptatem a amet dolorum deserunt perspiciatis! Esse facilis reprehenderit aliquid quos dolor obcaecati quis earum, fugiat libero </p>
+                            <h2 class="text-xl">Want to reach out?</h2>
+                            <p><a href="contact.html" title="Different Contact Methods">Click Here to Contact Me</a></p>
+                            <p>Another way to reach out to me would be contact my business
+                                phone number which is <a href="tel:+13101331832">(310) 133-1832.</a> Please leave a voicemail 
+                                or send a text message.
+                            </p>
                         </div>
                     </section>
 
                 </main>    
+            <script src="./index.js"></script>
     </body>
 </html>
