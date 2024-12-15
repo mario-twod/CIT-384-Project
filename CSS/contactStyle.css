@@ -258,19 +258,30 @@
 
                 .AboutQuery{
                     display: flex;
-                    font-size: 2rem;
                     font-weight: bold;
                     border-color: rgb(100, 157, 161);
                     border-width: 5px;
                     border-radius: 15px;
-                    margin: 5rem;
+                    margin: 3rem;
                     font-family: 'Open Sans', sans-serif;
+                    max-width: 50%;
+                    
+                    
+                }
+
+                .AboutQuery legend{
+                    font-size: 2rem;
                 }
 
                 .AboutQuery label{
-                    font-size: 30px;
                     justify-content: center;
                     align-items: center;
+                    font-size: 25px;
+                }
+
+                .AboutQuery input{
+                    margin: 1.5rem;
+
                 }
 
                 .Form textarea{
