@@ -61,19 +61,20 @@
             <main>
                 <p class = "disclaimer">If you would like to send an email without filling out the form, please click the button below
                 </p>
-                <form class= "Form">
-                    <div class = "email">
+                <div class = "email">
+                    <p><a href="mailto:mario.aguilar.270@my.csun.edu"><b>Email Me Here</b></a></p>
+                </div>
+                
 
-                        <p><a href="mailto:mario.aguilar.270@my.csun.edu"><b>Email Me Here</b></a></p>
-                    </div>
+                <form action = "https://formsubmit.co/mario.aguilar.cpla@gmail.com" class= "Form" method = "post" id = "contactForm" >
                     <h2>Contact Form</h2>
                     <div>
-                        <label for="name">First Name:</label>
+                        <label for="fname">First Name:</label>
                         <input 
                         type="text" 
-                        id="name" 
+                        id="fname" 
                         placeholder="Enter First Name"
-                        name="first-name"
+                        name="fname"
                         minlength="3"
                         maxlength="10"
                         required
@@ -82,12 +83,12 @@
                     </div>
                     
                     <div>
-                        <label for="name">Last Name:</label>
+                        <label for="lname">Last Name:</label>
                         <input 
                         type="text" 
-                        id="name" 
+                        id="lname" 
                         placeholder="Enter Last Name"
-                        name="last-name"
+                        name="lname"
                         minlength="3"
                         maxlength="10"
                         required/>
@@ -98,9 +99,9 @@
                         <input 
                         type="number" 
                         id="number" 
-                        placeholder="xxx-xxx-xxxx"
+                        placeholder="xxxxxxxxxx"
                         name="phone-number"
-                        required/>
+                        />
                     </div>
                     
                     <div>
@@ -117,7 +118,7 @@
                         <label for="text">Subject:</label>
                         <input 
                         type="text" 
-                        id="name" 
+                        id="subject" 
                         placeholder="ex. Job Opportunity"
                         name="subject"
                         minlength="3"
@@ -133,27 +134,39 @@
                         placeholder="Type Message"
                         rows="4"
                         cols="40"
-                        required>
-                        </textarea>
+                        required></textarea>
                     </div>
                     
                     <div>
                         <label for="range">Priority of Message:</label>
-                        <input 
-                        type="range" 
-                        name="priority" 
-                        id="priority"
-                        list="priorityTicks"
-                        min="0"
-                        max="2">
-                        <datalist id="priorityTicks">
-                            <option value="0"></option>
-                            <option value="1"></option>
-                            <option value="2"></option>
-                        </datalist>
+                        <select id="priority" name="priority">
+                            <option value="1">Low</option>
+                            <option value="2">Medium</option>
+                            <option value="3">High</option>
+                        </select>
                     </div>
+
+                    
+                <fieldset class="AboutQuery" id="messageType">
+                    <legend>Type</legend>
+                    <label>
+                        <input type="radio" name = "type" value = "3">
+                            Job Opportunity
+                    </label>
+                    <label>
+                        <input type="radio" name = "type" value = "2">
+                            Question
+                    </label>
+                    <label>
+                        <input type="radio" name = "type" value = "1">
+                            Other
+                    </label>
+                </fieldset>
+                    
                     <button class="submit" id="submitbtn">Submit</button>
+                    <input type="hidden" name="_next" value="https://marioaguilar.dev/thanks.html">
                 </form>
+                <p class = "errorMessage" id = "errorMessage">Please fill in all fields Correctly!</p>
 
 
 
@@ -172,7 +185,6 @@
                 </div>
 
             </main>
-
-            <script src="./contact.js"></script>
+            <script src="./JS/contact.js"></script>
     </body>
 </html>
